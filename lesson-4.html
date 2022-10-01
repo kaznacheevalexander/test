@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="http://doc.a-level.com.ua/highlightjs.css">
+    <style type="text/css">svg:not(:root).svg-inline--fa {
+        overflow: visible;
+      }
+      
+      .svg-inline--fa {
+        display: inline-block;
+        font-size: inherit;
+        height: 1em;
+        overflow: visible;
+        vertical-align: -0.125em;
+      }
+      .svg-inline--fa.fa-lg {
+        vertical-align: -0.225em;
+      }
+      .svg-inline--fa.fa-w-1 {
+        width: 0.0625em;
+      }
+      .svg-inline--fa.fa-w-2 {
+        width: 0.125em;
+      }
+      .svg-inline--fa.fa-w-3 {
+        width: 0.1875em;
+      }
+      .svg-inline--fa.fa-w-4 {
+        width: 0.25em;
+      }
+      .svg-inline--fa.fa-w-5 {
+        width: 0.3125em;
+      }
+      .svg-inline--fa.fa-w-6 {
+        width: 0.375em;
+      }
+      .svg-inline--fa.fa-w-7 {
+        width: 0.4375em;
+      }
+      .svg-inline--fa.fa-w-8 {
+        width: 0.5em;
+      }
+      .svg-inline--fa.fa-w-9 {
+        width: 0.5625em;
+      }
+      .svg-inline--fa.fa-w-10 {
+        width: 0.625em;
+      }
+      .svg-inline--fa.fa-w-11 {
+        width: 0.6875em;
+      }
+      .svg-inline--fa.fa-w-12 {
+        width: 0.75em;
+      }
+      .svg-inline--fa.fa-w-13 {
+        width: 0.8125em;
+      }
+      .svg-inline--fa.fa-w-14 {
+        width: 0.875em;
+      }
+      .svg-inline--fa.fa-w-15 {
+        width: 0.9375em;
+      }
+      .svg-inline--fa.fa-w-16 {
+        width: 1em;
+      }
+      .svg-inline--fa.fa-w-17 {
+        width: 1.0625em;
+      }
+      .svg-inline--fa.fa-w-18 {
+        width: 1.125em;
+      }
+      .svg-inline--fa.fa-w-19 {
+        width: 1.1875em;
+      }
+      .svg-inline--fa.fa-w-20 {
+        width: 1.25em;
+      }
+      .svg-inline--fa.fa-pull-left {
+        margin-right: 0.3em;
+        width: auto;
+      }
+      .svg-inline--fa.fa-pull-right {
+        margin-left: 0.3em;
+        width: auto;
+      }
+      .svg-inline--fa.fa-border {
+        height: 1.5em;
+      }
+      .svg-inline--fa.fa-li {
+        width: 2em;
+      }
+      .svg-inline--fa.fa-fw {
+        width: 1.25em;
+      }
+      
+      .fa-layers svg.svg-inline--fa {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .fa-layers {
+        display: inline-block;
+        height: 1em;
+        position: relative;
+        text-align: center;
+        vertical-align: -0.125em;
+        width: 1em;
+      }
+      .fa-layers svg.svg-inline--fa {
+        -webkit-transform-origin: center center;
+                transform-origin: center center;
+      }
+      
+      .fa-layers-counter, .fa-layers-text {
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+      }
+      
+      .fa-layers-text {
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        -webkit-transform-origin: center center;
+                transform-origin: center center;
+      }
+      
+      .fa-layers-counter {
+        background-color: #ff253a;
+        border-radius: 1em;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        color: #fff;
+        height: 1.5em;
+        line-height: 1;
+        max-width: 5em;
+        min-width: 1.5em;
+        overflow: hidden;
+        padding: 0.25em;
+        right: 0;
+        text-overflow: ellipsis;
+        top: 0;
+        -webkit-transform: scale(0.25);
+                transform: scale(0.25);
+        -webkit-transform-origin: top right;
+                transform-origin: top right;
+      }
+      
+      .fa-layers-bottom-right {
+        bottom: 0;
+        right: 0;
+        top: auto;
+        -webkit-transform: scale(0.25);
+                transform: scale(0.25);
+        -webkit-transform-origin: bottom right;
+                transform-origin: bottom right;
+      }
+      
+      .fa-layers-bottom-left {
+        bottom: 0;
+        left: 0;
+        right: auto;
+        top: auto;
+        -webkit-transform: scale(0.25);
+                transform: scale(0.25);
+        -webkit-transform-origin: bottom left;
+                transform-origin: bottom left;
+      }
+      
+      .fa-layers-top-right {
+        right: 0;
+        top: 0;
+        -webkit-transform: scale(0.25);
+                transform: scale(0.25);
+        -webkit-transform-origin: top right;
+                transform-origin: top right;
+      }
+      
+      .fa-layers-top-left {
+        left: 0;
+        right: auto;
+        top: 0;
+        -webkit-transform: scale(0.25);
+                transform: scale(0.25);
+        -webkit-transform-origin: top left;
+                transform-origin: top left;
+      }
+      
+      .fa-lg {
+        font-size: 1.3333333333em;
+        line-height: 0.75em;
+        vertical-align: -0.0667em;
+      }
+      
+      .fa-xs {
+        font-size: 0.75em;
+      }
+      
+      .fa-sm {
+        font-size: 0.875em;
+      }
+      
+      .fa-1x {
+        font-size: 1em;
+      }
+      
+      .fa-2x {
+        font-size: 2em;
+      }
+      
+      .fa-3x {
+        font-size: 3em;
+      }
+      
+      .fa-4x {
+        font-size: 4em;
+      }
+      
+      .fa-5x {
+        font-size: 5em;
+      }
+      
+      .fa-6x {
+        font-size: 6em;
+      }
+      
+      .fa-7x {
+        font-size: 7em;
+      }
+      
+      .fa-8x {
+        font-size: 8em;
+      }
+      
+      .fa-9x {
+        font-size: 9em;
+      }
+      
+      .fa-10x {
+        font-size: 10em;
+      }
+      
+      .fa-fw {
+        text-align: center;
+        width: 1.25em;
+      }
+      
+      .fa-ul {
+        list-style-type: none;
+        margin-left: 2.5em;
+        padding-left: 0;
+      }
+      .fa-ul > li {
+        position: relative;
+      }
+      
+      .fa-li {
+        left: -2em;
+        position: absolute;
+        text-align: center;
+        width: 2em;
+        line-height: inherit;
+      }
+      
+      .fa-border {
+        border: solid 0.08em #eee;
+        border-radius: 0.1em;
+        padding: 0.2em 0.25em 0.15em;
+      }
+      
+      .fa-pull-left {
+        float: left;
+      }
+      
+      .fa-pull-right {
+        float: right;
+      }
+      
+      .fa.fa-pull-left,
+      .fas.fa-pull-left,
+      .far.fa-pull-left,
+      .fal.fa-pull-left,
+      .fab.fa-pull-left {
+        margin-right: 0.3em;
+      }
+      .fa.fa-pull-right,
+      .fas.fa-pull-right,
+      .far.fa-pull-right,
+      .fal.fa-pull-right,
+      .fab.fa-pull-right {
+        margin-left: 0.3em;
+      }
+      
+      .fa-spin {
+        -webkit-animation: fa-spin 2s infinite linear;
+                animation: fa-spin 2s infinite linear;
+      }
+      
+      .fa-pulse {
+        -webkit-animation: fa-spin 1s infinite steps(8);
+                animation: fa-spin 1s infinite steps(8);
+      }
+      
+      @-webkit-keyframes fa-spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+                  transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+                  transform: rotate(360deg);
+        }
+      }
+      
+      @keyframes fa-spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+                  transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+                  transform: rotate(360deg);
+        }
+      }
+      .fa-rotate-90 {
+        -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+        -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+      }
+      
+      .fa-rotate-180 {
+        -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+      }
+      
+      .fa-rotate-270 {
+        -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+        -webkit-transform: rotate(270deg);
+                transform: rotate(270deg);
+      }
+      
+      .fa-flip-horizontal {
+        -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+        -webkit-transform: scale(-1, 1);
+                transform: scale(-1, 1);
+      }
+      
+      .fa-flip-vertical {
+        -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+        -webkit-transform: scale(1, -1);
+                transform: scale(1, -1);
+      }
+      
+      .fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+        -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+        -webkit-transform: scale(-1, -1);
+                transform: scale(-1, -1);
+      }
+      
+      :root .fa-rotate-90,
+      :root .fa-rotate-180,
+      :root .fa-rotate-270,
+      :root .fa-flip-horizontal,
+      :root .fa-flip-vertical,
+      :root .fa-flip-both {
+        -webkit-filter: none;
+                filter: none;
+      }
+      
+      .fa-stack {
+        display: inline-block;
+        height: 2em;
+        position: relative;
+        width: 2.5em;
+      }
+      
+      .fa-stack-1x,
+      .fa-stack-2x {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .svg-inline--fa.fa-stack-1x {
+        height: 1em;
+        width: 1.25em;
+      }
+      .svg-inline--fa.fa-stack-2x {
+        height: 2em;
+        width: 2.5em;
+      }
+      
+      .fa-inverse {
+        color: #fff;
+      }
+      
+      .sr-only {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      
+      .sr-only-focusable:active, .sr-only-focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+      }
+      
+      .svg-inline--fa .fa-primary {
+        fill: var(--fa-primary-color, currentColor);
+        opacity: 1;
+        opacity: var(--fa-primary-opacity, 1);
+      }
+      
+      .svg-inline--fa .fa-secondary {
+        fill: var(--fa-secondary-color, currentColor);
+        opacity: 0.4;
+        opacity: var(--fa-secondary-opacity, 0.4);
+      }
+      
+      .svg-inline--fa.fa-swap-opacity .fa-primary {
+        opacity: 0.4;
+        opacity: var(--fa-secondary-opacity, 0.4);
+      }
+      
+      .svg-inline--fa.fa-swap-opacity .fa-secondary {
+        opacity: 1;
+        opacity: var(--fa-primary-opacity, 1);
+      }
+      
+      .svg-inline--fa mask .fa-primary,
+      .svg-inline--fa mask .fa-secondary {
+        fill: black;
+      }
+      
+      .fad.fa-inverse {
+        color: #fff;
+      }</style>
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://doc.a-level.com.ua/static/css/main.6aea2394.css">
+
+    <script src="http://doc.a-level.com.ua/static/js/main.8cdf72fc.js"></script>
+    
+</head>
+<body>
+    <div class="mdViewer">
+        <h1 id="triangularflagonpost1cssreset"><section id="triangularflagonpost1cssreset_0"><img id="triangularflagonpost1cssreset_1" src="https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/triangular_flag_on_post.png" height="20"> 1.Встроенные стили браузеров. CSS reset.</section></h1>
+<div><section id="triangularflagonpost1cssreset_2"></section><section id="triangularflagonpost1cssreset_3">У каждого браузера есть свои встроенные стили HTML-документов, созданные для улучшения читабельности (синие подчеркнутые ссылки, черный шрифт, полужирное начертание заголовков и т. д.)</section><section id="triangularflagonpost1cssreset_4">Каждый браузер имеет свои отличия во встроенных стилях: например, в IE нет отступа от верхнего края окна, а в Firefox есть. 
+Таких отличий существует много.</section><section id="triangularflagonpost1cssreset_5">Чтобы они не создавали помех для кроссбраузерности при написании собственного стиля CSS, можно воспользоваться методом сброса встроенных стилей (по сути, та же самая
+таблица CSS, где описаны правила, которые сбрасывают встроенные стили браузеров, устанавливая базовые значения свойств):</section><section id="triangularflagonpost1cssreset_6"><b id="triangularflagonpost1cssreset_7"><a href="http://meyerweb.com/eric/tools/css/reset/" id="triangularflagonpost1cssreset_8">Reset.css</a></b> — как и видно по названию файла, сбрасывает большинство стилей браузера, которые в нем заданы по умолчанию (а такие действительно есть, просто откройте голый HTML).</section><section id="triangularflagonpost1cssreset_9"><b id="triangularflagonpost1cssreset_10"><a href="https://necolas.github.io/normalize.css/" id="triangularflagonpost1cssreset_11">Normalize.css</a></b> — этот файл не только задает стили по умолчанию там где это необходимо, но и исправляет некоторые недостатки старых браузеров (привет IE).</section><section id="triangularflagonpost1cssreset_12">Как вы понимаете, эти 2 файла даже не совсем корректно сравнивать.</section><h3 id="normalizeresetcss"><section id="normalizeresetcss_0">В чем отличия normalize от reset css</section></h3><div><section id="normalizeresetcss_1"></section><section id="normalizeresetcss_2">1) Normalize сохраняет полезные настройки браузера, а не стирает их (как reset).</section><section id="normalizeresetcss_3">2) В normalize css есть исправления различных общих ошибок (отображение HTML5 тегов или тех же форм)</section><section id="normalizeresetcss_4">3) Когда вы работаете с инструментами отладки в браузерах, таких, например, как фаербаг, 
+подключая ресет вы получите огромную «простыню» из свойств, которая в итоге увеличит ваше время на написание новых стилей и поиск старых</section><section id="normalizeresetcss_5">4) В normalize каждое отдельное правило задокументировано и вы легко сможете понять
+для чего оно там, и если вы уверены что оно вам не нужно, то сможете легко его удалить</section><section id="normalizeresetcss_6">5) normalize.css подключен по умолчанию в bootstrap</section><hr id="normalizeresetcss_7"><section id="normalizeresetcss_8"></section><section id="normalizeresetcss_9">Вот стили Normalize:
+</section><pre><code class="hljs css"><span class="hljs-comment">/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */</span>
+
+<span class="hljs-comment">/* Document
+   ========================================================================== */</span>
+
+<span class="hljs-comment">/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */</span>
+
+<span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.15</span>; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">-webkit-text-size-adjust</span>: <span class="hljs-number">100%</span>; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/* Sections
+   ========================================================================== */</span>
+
+<span class="hljs-comment">/**
+ * Remove the margin in all browsers.
+ */</span>
+
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-comment">/**
+ * Render the `main` element consistently in IE.
+ */</span>
+
+<span class="hljs-selector-tag">main</span> {
+  <span class="hljs-attribute">display</span>: block;
+}
+
+<span class="hljs-comment">/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */</span>
+
+<span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0.67em</span> <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-comment">/* Grouping content
+   ========================================================================== */</span>
+
+<span class="hljs-comment">/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */</span>
+
+<span class="hljs-selector-tag">hr</span> {
+  <span class="hljs-attribute">box-sizing</span>: content-box; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">0</span>; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">overflow</span>: visible; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */</span>
+
+<span class="hljs-selector-tag">pre</span> {
+  <span class="hljs-attribute">font-family</span>: monospace, monospace; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1em</span>; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/* Text-level semantics
+   ========================================================================== */</span>
+
+<span class="hljs-comment">/**
+ * Remove the gray background on active links in IE 10.
+ */</span>
+
+<span class="hljs-selector-tag">a</span> {
+  <span class="hljs-attribute">background-color</span>: transparent;
+}
+
+<span class="hljs-comment">/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */</span>
+
+<span class="hljs-selector-tag">abbr</span><span class="hljs-selector-attr">[title]</span> {
+  <span class="hljs-attribute">border-bottom</span>: none; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">text-decoration</span>: underline; <span class="hljs-comment">/* 2 */</span>
+  <span class="hljs-attribute">text-decoration</span>: underline dotted; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */</span>
+
+<span class="hljs-selector-tag">b</span>,
+<span class="hljs-selector-tag">strong</span> {
+  <span class="hljs-attribute">font-weight</span>: bolder;
+}
+
+<span class="hljs-comment">/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */</span>
+
+<span class="hljs-selector-tag">code</span>,
+<span class="hljs-selector-tag">kbd</span>,
+<span class="hljs-selector-tag">samp</span> {
+  <span class="hljs-attribute">font-family</span>: monospace, monospace; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1em</span>; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/**
+ * Add the correct font size in all browsers.
+ */</span>
+
+<span class="hljs-selector-tag">small</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">80%</span>;
+}
+
+<span class="hljs-comment">/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */</span>
+
+<span class="hljs-selector-tag">sub</span>,
+<span class="hljs-selector-tag">sup</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">75%</span>;
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">position</span>: relative;
+  <span class="hljs-attribute">vertical-align</span>: baseline;
+}
+
+<span class="hljs-selector-tag">sub</span> {
+  <span class="hljs-attribute">bottom</span>: -<span class="hljs-number">0.25em</span>;
+}
+
+<span class="hljs-selector-tag">sup</span> {
+  <span class="hljs-attribute">top</span>: -<span class="hljs-number">0.5em</span>;
+}
+
+<span class="hljs-comment">/* Embedded content
+   ========================================================================== */</span>
+
+<span class="hljs-comment">/**
+ * Remove the border on images inside links in IE 10.
+ */</span>
+
+<span class="hljs-selector-tag">img</span> {
+  <span class="hljs-attribute">border-style</span>: none;
+}
+
+<span class="hljs-comment">/* Forms
+   ========================================================================== */</span>
+
+<span class="hljs-comment">/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */</span>
+
+<span class="hljs-selector-tag">button</span>,
+<span class="hljs-selector-tag">input</span>,
+<span class="hljs-selector-tag">optgroup</span>,
+<span class="hljs-selector-tag">select</span>,
+<span class="hljs-selector-tag">textarea</span> {
+  <span class="hljs-attribute">font-family</span>: inherit; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">100%</span>; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.15</span>; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */</span>
+
+<span class="hljs-selector-tag">button</span>,
+<span class="hljs-selector-tag">input</span> { <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">overflow</span>: visible;
+}
+
+<span class="hljs-comment">/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */</span>
+
+<span class="hljs-selector-tag">button</span>,
+<span class="hljs-selector-tag">select</span> { <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">text-transform</span>: none;
+}
+
+<span class="hljs-comment">/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */</span>
+
+<span class="hljs-selector-tag">button</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"button"</span>]</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"reset"</span>]</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"submit"</span>]</span> {
+  <span class="hljs-attribute">-webkit-appearance</span>: button;
+}
+
+<span class="hljs-comment">/**
+ * Remove the inner border and padding in Firefox.
+ */</span>
+
+<span class="hljs-selector-tag">button</span><span class="hljs-selector-pseudo">::-moz-focus-inner</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"button"</span>]</span><span class="hljs-selector-pseudo">::-moz-focus-inner</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"reset"</span>]</span><span class="hljs-selector-pseudo">::-moz-focus-inner</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"submit"</span>]</span><span class="hljs-selector-pseudo">::-moz-focus-inner</span> {
+  <span class="hljs-attribute">border-style</span>: none;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+}
+
+<span class="hljs-comment">/**
+ * Restore the focus styles unset by the previous rule.
+ */</span>
+
+<span class="hljs-selector-tag">button</span><span class="hljs-selector-pseudo">:-moz-focusring</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"button"</span>]</span><span class="hljs-selector-pseudo">:-moz-focusring</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"reset"</span>]</span><span class="hljs-selector-pseudo">:-moz-focusring</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"submit"</span>]</span><span class="hljs-selector-pseudo">:-moz-focusring</span> {
+  <span class="hljs-attribute">outline</span>: <span class="hljs-number">1px</span> dotted ButtonText;
+}
+
+<span class="hljs-comment">/**
+ * Correct the padding in Firefox.
+ */</span>
+
+<span class="hljs-selector-tag">fieldset</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0.35em</span> <span class="hljs-number">0.75em</span> <span class="hljs-number">0.625em</span>;
+}
+
+<span class="hljs-comment">/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */</span>
+
+<span class="hljs-selector-tag">legend</span> {
+  <span class="hljs-attribute">box-sizing</span>: border-box; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">color</span>: inherit; <span class="hljs-comment">/* 2 */</span>
+  <span class="hljs-attribute">display</span>: table; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">100%</span>; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>; <span class="hljs-comment">/* 3 */</span>
+  <span class="hljs-attribute">white-space</span>: normal; <span class="hljs-comment">/* 1 */</span>
+}
+
+<span class="hljs-comment">/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */</span>
+
+<span class="hljs-selector-tag">progress</span> {
+  <span class="hljs-attribute">vertical-align</span>: baseline;
+}
+
+<span class="hljs-comment">/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */</span>
+
+<span class="hljs-selector-tag">textarea</span> {
+  <span class="hljs-attribute">overflow</span>: auto;
+}
+
+<span class="hljs-comment">/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */</span>
+
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"checkbox"</span>]</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"radio"</span>]</span> {
+  <span class="hljs-attribute">box-sizing</span>: border-box; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */</span>
+
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"number"</span>]</span><span class="hljs-selector-pseudo">::-webkit-inner-spin-button</span>,
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"number"</span>]</span><span class="hljs-selector-pseudo">::-webkit-outer-spin-button</span> {
+  <span class="hljs-attribute">height</span>: auto;
+}
+
+<span class="hljs-comment">/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */</span>
+
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"search"</span>]</span> {
+  <span class="hljs-attribute">-webkit-appearance</span>: textfield; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">outline-offset</span>: -<span class="hljs-number">2px</span>; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */</span>
+
+<span class="hljs-selector-attr">[type=<span class="hljs-string">"search"</span>]</span><span class="hljs-selector-pseudo">::-webkit-search-decoration</span> {
+  <span class="hljs-attribute">-webkit-appearance</span>: none;
+}
+
+<span class="hljs-comment">/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */</span>
+
+<span class="hljs-selector-pseudo">::-webkit-file-upload-button</span> {
+  <span class="hljs-attribute">-webkit-appearance</span>: button; <span class="hljs-comment">/* 1 */</span>
+  <span class="hljs-attribute">font</span>: inherit; <span class="hljs-comment">/* 2 */</span>
+}
+
+<span class="hljs-comment">/* Interactive
+   ========================================================================== */</span>
+
+<span class="hljs-comment">/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */</span>
+
+<span class="hljs-selector-tag">details</span> {
+  <span class="hljs-attribute">display</span>: block;
+}
+
+<span class="hljs-comment">/*
+ * Add the correct display in all browsers.
+ */</span>
+
+<span class="hljs-selector-tag">summary</span> {
+  <span class="hljs-attribute">display</span>: list-item;
+}
+
+<span class="hljs-comment">/* Misc
+   ========================================================================== */</span>
+
+<span class="hljs-comment">/**
+ * Add the correct display in IE 10+.
+ */</span>
+
+<span class="hljs-selector-tag">template</span> {
+  <span class="hljs-attribute">display</span>: none;
+}
+
+<span class="hljs-comment">/**
+ * Add the correct display in IE 10.
+ */</span>
+
+<span class="hljs-selector-attr">[hidden]</span> {
+  <span class="hljs-attribute">display</span>: none;
+}</code></pre><hr id="normalizeresetcss_11"><section id="normalizeresetcss_12"></section><section id="normalizeresetcss_13">Если требуется, вы и сами можете создать свой файл сброса стилей, исходя из ваших потребностей.</section><section id="normalizeresetcss_14">
+!!! Файл сброса стилей необходимо подключать раньше, чем собственные стили.</section></div></div>
+<h1 id="triangularflagonpost2"><section id="triangularflagonpost2_0"><img id="triangularflagonpost2_1" src="https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/triangular_flag_on_post.png" height="20"> 2.Блочная модель</section></h1>
+<div><section id="triangularflagonpost2_2"></section><section id="triangularflagonpost2_3">Для веб-браузера элементы страницы представляют небольшие контейнеры или блоки. Такие блоки могут иметь различное содержимое — текст, изображения, списки, таблицы и другие элементы. Внутренние элементы блоков сами выступают в качестве блоков.</section><section id="triangularflagonpost2_4">Схематично блочную модель можно представить следующим образом:</section><section id="triangularflagonpost2_5"><img src="https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-6-block.png" alt="" id="triangularflagonpost2_6" style="width: 300px;"></section><section id="triangularflagonpost2_7"><b id="triangularflagonpost2_8">Область содержимого</b> — это содержимое элемента, например, текст или изображение.</section><section id="triangularflagonpost2_9"><b id="triangularflagonpost2_10">Внутренний отступ</b> задается свойством <b id="triangularflagonpost2_11"><i id="triangularflagonpost2_12">padding</i></b>. Внутренний отступ — это расстояние между основным содержимым и его границей (рамкой). Если для элемента задать фон, то он распространится также и на поля элемента. Внутренний отступ не может принимать отрицательных значений, в отличие от внешнего отступа.</section><section id="triangularflagonpost2_13"><b id="triangularflagonpost2_14">Внешний отступ</b> задается свойством <b id="triangularflagonpost2_15"><i id="triangularflagonpost2_16">margin</i></b>. Он добавляет расстояние снаружи элемента от внешней границы рамки до соседних элементов, тем самым разделяя элементы на странице. Внешние отступы всегда остаются прозрачными и через них виден фон родительского элемента.</section><section id="triangularflagonpost2_17">Значения <b id="triangularflagonpost2_18"><i id="triangularflagonpost2_19">padding и margin задаются в следующем порядке</i></b>: верхнее, правое, нижнее и левое.</section><section id="triangularflagonpost2_20"><b id="triangularflagonpost2_21">Граница</b>, или рамка элемента, задается с помощью свойства <b id="triangularflagonpost2_22"><i id="triangularflagonpost2_23">border</i></b>. Если цвет рамки не задан, она принимает цвет основного содержимого элемента, например, текста. Если рамка имеет разрывы, то сквозь них будет проступать фон элемента.</section><section id="triangularflagonpost2_24">Внешние, внутренние отступы и рамка элемента не являются обязательными, по умолчанию их значение равно нулю. 
+Тем не менее, некоторые браузеры добавляют этим свойствам положительные значения по умолчанию на основе своих таблиц стилей. </section><pre><code class="hljs css">Отступы задаются по ходу часовой стрелки, начиная сверху:
+
+<span class="hljs-selector-tag">div</span> {
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-number">30px</span>;
+    <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span> <span class="hljs-number">20px</span>;
+}</code></pre><section id="triangularflagonpost2_26">
+<b id="triangularflagonpost2_27">Отрицательные отступы</b></section><section id="triangularflagonpost2_28">Отрицательные значения margin-top/margin-left смещают элемент со своего обычного места.</section><section id="triangularflagonpost2_29">При сдвиге через margin соседние элементы занимают освободившееся пространство.</section><section id="triangularflagonpost2_30"><img id="triangularflagonpost2_31" src="https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/exclamation.png" height="20"> Отрицательных паддингов НЕ СУЩЕСТВУЕТ!</section></div>
+<h1 id="triangularflagonpost3border"><section id="triangularflagonpost3border_0"><img id="triangularflagonpost3border_1" src="https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/triangular_flag_on_post.png" height="20"> 3. <code id="triangularflagonpost3border_2">border</code></section></h1>
+<div><section id="triangularflagonpost3border_3"></section><section id="triangularflagonpost3border_4">Граница, или рамка элемента, задается с помощью ствойства <b id="triangularflagonpost3border_5"><i id="triangularflagonpost3border_6">border</i></b></section><section id="triangularflagonpost3border_7">По умолчанию рамки всегда отрисовываются поверх фона элемента, фон распространяется до внешнего края элемента. </section><section id="triangularflagonpost3border_8">Стиль <b id="triangularflagonpost3border_9">border</b> задается с помощью атрибутов:
+</section><ul id="triangularflagonpost3border_10"><li id="triangularflagonpost3border_11"><section id="triangularflagonpost3border_12"> border-style</section></li><li id="triangularflagonpost3border_13"><section id="triangularflagonpost3border_14"> border-width</section></li><li id="triangularflagonpost3border_15"><section id="triangularflagonpost3border_16"> border-color
+</section><pre><code class="hljs maxima">или одной строкой:
+
+<span class="hljs-built_in">border</span>: [<span class="hljs-built_in">style</span>] [<span class="hljs-built_in">width</span>] [<span class="hljs-built_in">color</span>];</code></pre></li></ul><h2 id="borderstylec"><section id="borderstylec_0"><code id="borderstylec_1">border-style</code> - cтиль бордера</section></h2><div><section id="borderstylec_2"></section><section id="borderstylec_3">Стиль рамки определяет ее отображение, без этого свойства рамки не будут видны вообще. Для элемента можно задавать рамку для всех сторон одновременно с помощью свойства <b id="borderstylec_4">border-style</b> или для каждой стороны отдельно с помощью уточняющих свойств <b id="borderstylec_5">border-top-style, border-right-style, border-bottom-style, border-left-style</b> и т.д. </section><section id="borderstylec_6">Не наследуется.</section><section id="borderstylec_7"><img src="https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-6-borderstyle.png" alt="" id="borderstylec_8" style="width: 600px;"></section></div><h2 id="borderwidth"><section id="borderwidth_0"><code id="borderwidth_1">border-width</code> - толщина границы</section></h2><div><section id="borderwidth_2"></section><section id="borderwidth_3">Задаёт толщину границы элемента.</section><section id="borderwidth_4">Три переменные — thin (2 пикселя), medium (4 пикселя) и thick (6 пикселей) задают толщину границы. Для более точного значения толщину можно указывать в пикселях или других единицах.</section><table><thead><tr><th><section id="borderwidth_5">Число значений</section></th><th><section id="borderwidth_6">Результат</section></th></tr></thead><tbody><tr><td><section id="borderwidth_7">1</section></td><td><section id="borderwidth_8">Толщина границы будет установлена для всех сторон элемента.</section></td></tr><tr><td><section id="borderwidth_9">2</section></td><td><section id="borderwidth_10">Первое значение устанавливает толщину верхней и нижней границ, второе — левой и правой.</section></td></tr><tr><td><section id="borderwidth_11">3</section></td><td><section id="borderwidth_12">Первое значение задаёт толщину верхней границы, второе — одновременно левой и правой границ, а третье — нижней границы.</section></td></tr><tr><td><section id="borderwidth_13">4</section></td><td><section id="borderwidth_14">Поочерёдно устанавливается толщину верхней, правой, нижней и левой границ.</section></td></tr></tbody></table></div><h2 id="bordercolor"><section id="bordercolor_0"><code id="bordercolor_1">border-color</code> - цвет бордера</section></h2><div><section id="bordercolor_2"></section><section id="bordercolor_3">С помощью этого свойства Вы можете задать цвет границы HTML элемента.</section><section id="bordercolor_4">Цвет может быть задан следующими <a href="https://www.w3schools.com/colors/colors_names.asp" id="bordercolor_5">способами</a>:
+</section><ol id="bordercolor_6"><li id="bordercolor_7"><section id="bordercolor_8">С помощью имени (например 'red' задаст красный цвет);</section></li><li id="bordercolor_9"><section id="bordercolor_10">С помощью RGB значения(например 'rgb(255,255,255)' задаст белый цвет);</section></li><li id="bordercolor_11"><section id="bordercolor_12">С помощью шестнадцатеричного значения (например '#00ff00' задаст зеленый цвет).</section></li></ol><section id="bordercolor_13">
+Кроме того, можно задавать скругление уголков блока с помощью атрибута <b id="bordercolor_14">border-radius</b>:
+</section><pre><code class="hljs css"><span class="hljs-selector-tag">div</span> {
+    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">10px</span>;
+}</code></pre></div></div>
+<h1 id="triangularflagonpost3boxsizing"><section id="triangularflagonpost3boxsizing_0"><img id="triangularflagonpost3boxsizing_1" src="https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/triangular_flag_on_post.png" height="20"> 3. Box-sizing</section></h1>
+<div><section id="triangularflagonpost3boxsizing_2"></section><section id="triangularflagonpost3boxsizing_3">Свойство  <b id="triangularflagonpost3boxsizing_4"><i id="triangularflagonpost3boxsizing_5">box-sizing</i></b> используется для изменения блочной модели CSS применяемой по умолчанию, с помощью которой вычисляются ширина и высота элементов.
+Свойство box-sizing может принимать одно из двух значений – border-box или content-box. В зависимости от выбранного значения браузер по-разному трактует значение свойств width/height.</section><section id="triangularflagonpost3boxsizing_6">
+<b id="triangularflagonpost3boxsizing_7">Значения box-sizing</b></section><h2 id="contentbox"><section id="contentbox_0"><code id="contentbox_1">content-box</code></section></h2><div><section id="contentbox_2">
+Это значение по умолчанию. В этом случае свойства width/height обозначают то, что находится <b id="contentbox_3"><i id="contentbox_4">внутри padding</i></b>.</section><pre><code class="hljs css"><span class="hljs-selector-tag">body</span> {
+    <span class="hljs-attribute">box-sizing</span>: content-box;
+}</code></pre></div><h2 id="borderbox"><section id="borderbox_0"><code id="borderbox_1">border-box</code></section></h2><div><section id="borderbox_2">
+Значения width/height задают высоту/ширину <b id="borderbox_3"><i id="borderbox_4">всего элемента</i></b>.</section><pre><code class="hljs css"><span class="hljs-selector-tag">body</span> {
+    <span class="hljs-attribute">box-sizing</span>: border-box;
+}</code></pre><section id="borderbox_6"></section><section id="borderbox_7">Для большей наглядности посмотрим на картинку этого div в зависимости от box-sizing:</section><section id="borderbox_8"><img src="https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-6-boxsizing.png" alt="" id="borderbox_9"></section><section id="borderbox_10">
+В верхнем случае браузер нарисовал весь элемент размером в width x height, в нижнем – интерпретировал <code id="borderbox_11">width/height</code> как размеры внутренней области.</section><section id="borderbox_12">Исторически сложилось так, что по умолчанию принят content-box, а border-box некоторые браузеры используют если не указан <code id="borderbox_13">DOCTYPE</code>, в режиме совместимости.</section><section id="borderbox_14">Но есть как минимум один случай, когда явное указание <code id="borderbox_15">border-box</code> может быть полезно: растягивание элемента до ширины родителя.</section></div></div>
+<h1 id="triangularflagonpost4display"><section id="triangularflagonpost4display_0"><img id="triangularflagonpost4display_1" src="https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/triangular_flag_on_post.png" height="20"> 4. Свойство <code id="triangularflagonpost4display_2">display</code></section></h1>
+<div><section id="triangularflagonpost4display_3">
+Свойство, которое определяет, как элемент должен быть показан в документе.</section><table><thead><tr><th><section id="triangularflagonpost4display_4">display:</section></th><th><section id="triangularflagonpost4display_5">comment</section></th></tr></thead><tbody><tr><td><section id="triangularflagonpost4display_6">inline</section></td><td><section id="triangularflagonpost4display_7">инлайн (строчный)</section></td></tr><tr><td><section id="triangularflagonpost4display_8">block</section></td><td><section id="triangularflagonpost4display_9">блочный</section></td></tr><tr><td><section id="triangularflagonpost4display_10">inline-block:</section></td><td><section id="triangularflagonpost4display_11">инлайн-блочный</section></td></tr><tr><td><section id="triangularflagonpost4display_12">table:</section></td><td><section id="triangularflagonpost4display_13">таблица</section></td></tr><tr><td><section id="triangularflagonpost4display_14">flex:</section></td><td><section id="triangularflagonpost4display_15">флекс</section></td></tr><tr><td><section id="triangularflagonpost4display_16">...</section></td><td><section id="triangularflagonpost4display_17">...</section></td></tr><tr><td><section id="triangularflagonpost4display_18">none</section></td><td><section id="triangularflagonpost4display_19">-</section></td></tr></tbody></table><section id="triangularflagonpost4display_20"></section><section id="triangularflagonpost4display_21">Почему бы не использовать строчные элементы, такие как <code id="triangularflagonpost4display_22">&lt;span&gt;</code>?</section><section id="triangularflagonpost4display_23">Потому что <b id="triangularflagonpost4display_24"><i id="triangularflagonpost4display_25">вы выбираете элемент HTML по его смыслу, а не отображению</i></b>. Если мы решили, что абзац подходит нашему содержимому лучше всего, мы не должны менять <i id="triangularflagonpost4display_26">тег ради стилизации</i>. Это CSS заботится о стилизации.</section><section id="triangularflagonpost4display_27">Короче говоря, <b id="triangularflagonpost4display_28"><i id="triangularflagonpost4display_29">display позволяет сменить тип элемента без изменения его смысла</i></b>.</section><section id="triangularflagonpost4display_30">Для каждого варианта display есть определенное поведение:</section><h2 id="h2-12"><section id="h2-12_0">Блочные элементы</section></h2><div><section id="h2-12_1">
+</section><blockquote id="h2-12_2"><section id="h2-12_3"> <b id="h2-12_4">Блочным</b> называется элемент, который занимает всю доступную ширину и всегда начинается с новой строки. В HTML есть ряд элементов, у которых эти значения display установлены по умолчанию, поэтому они уже наделены свойствами блочных элементов. </section></blockquote><pre><code class="hljs xml"> Представители блочных элементов: 
+ 
+    <span class="hljs-tag">&lt;<span class="hljs-name">address</span>&gt;</span>           <span class="hljs-tag">&lt;<span class="hljs-name">figure</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>           <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">aside</span>&gt;</span>             <span class="hljs-tag">&lt;<span class="hljs-name">form</span>&gt;</span>              <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">blockquote</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>-<span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>           <span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">canvas</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">tfoot</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>                <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>                <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>               <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>                 <span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">dl</span>&gt;</span>                <span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>              <span class="hljs-tag">&lt;<span class="hljs-name">video</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">dt</span>&gt;</span>                <span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>               <span class="hljs-tag">&lt;<span class="hljs-name">figcaption</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span>&gt;</span>          <span class="hljs-tag">&lt;<span class="hljs-name">noscript</span>&gt;</span></code></pre><section id="h2-12_6"></section><section id="h2-12_7"><b id="h2-12_8">Особенности блочных элементов:</b></section><ol id="h2-12_9"><li id="h2-12_10"><section id="h2-12_11">По ширине блочные элементы занимают всё допустимое пространство.</section></li><li id="h2-12_12"><section id="h2-12_13">Блок имеет параметры width, padding, border и margin.</section></li><li id="h2-12_14"><section id="h2-12_15">Блоки располагаются по вертикали друг под другом.</section></li><li id="h2-12_16"><section id="h2-12_17">На блочные элементы не действуют свойства, предназначенные для строчных элементов (например vertical-align)</section></li></ol><section id="h2-12_18">
+Для превращения элемента в блочный элемент к селектору добавляется свойство display со значением block (+наследует все свойства блочного элемента).
+</section><pre><code class="hljs css"><span class="hljs-selector-class">.btn</span> {
+    <span class="hljs-attribute">display</span>: block;
+}</code></pre></div><h2 id="h2-13"><section id="h2-13_0">Строчные элементы</section></h2><div><section id="h2-13_1">
+</section><blockquote id="h2-13_2"><section id="h2-13_3"> <b id="h2-13_4">Строчными</b> называются такие элементы, которые являются непосредственной частью строки, у них значение свойства <a href="https://docs.google.com/document/d/1YZuJ1boKLqVtd1NTqVP9JdPS6ON3K8HpxvkBloKLwcM/edit#bookmark=kix.jv9n0txn7b19" id="h2-13_5">display</a> установлено как inline. Вот они:</section></blockquote><section id="h2-13_6">
+</section><pre><code class="hljs xml">    <span class="hljs-tag">&lt;<span class="hljs-name">a</span>&gt;</span>             <span class="hljs-tag">&lt;<span class="hljs-name">dfn</span>&gt;</span>           <span class="hljs-tag">&lt;<span class="hljs-name">samp</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">abbr</span>&gt;</span>          <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="handlebars"><span class="xml">
+    <span class="hljs-tag">&lt;<span class="hljs-name">acronym</span>&gt;</span>       <span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>             <span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>             <span class="hljs-tag">&lt;<span class="hljs-name">kbd</span>&gt;</span>           <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">bdo</span>&gt;</span>           <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>         <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">big</span>&gt;</span>           <span class="hljs-tag">&lt;<span class="hljs-name">map</span>&gt;</span>           <span class="hljs-tag">&lt;<span class="hljs-name">sub</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">object</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">sup</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">cite</span>&gt;</span>          <span class="hljs-tag">&lt;<span class="hljs-name">output</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">time</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>          <span class="hljs-tag">&lt;<span class="hljs-name">q</span>&gt;</span>             <span class="hljs-tag">&lt;<span class="hljs-name">var</span>&gt;</span></span></span></code></pre><section id="h2-13_8"></section><section id="h2-13_9">Элементы в основном они используются для изменения вида текста или его смыслового выделения.</section><section id="h2-13_10">Характерные <b id="h2-13_11">особенности строчных элементов:</b>
+</section><ol id="h2-13_12"><li id="h2-13_13"><section id="h2-13_14">Свойства, связанные с размерами (width, height), не применимы: их размер связан с их содержимым</section></li><li id="h2-13_15"><section id="h2-13_16">Размер элемента равен его содержимому плюс значения margin, border и padding. <b id="h2-13_17"><i id="h2-13_18">Заметьте одну особенность</i></b> — для строчных элементов <i id="h2-13_19">margin</i> работает только по горизонтали, но никак не вертикали. Таким образом, свойства margin-top и margin-bottom не действуют</section></li><li id="h2-13_20"><section id="h2-13_21">Срочные элементы переносятся на другую строку при необходимости. </section></li><li id="h2-13_22"><section id="h2-13_23">Можно выравнивать по вертикали с помощью свойства vertical-align.
+Свойство <i id="h2-13_24">vertical-align</i> выравнивает элементы относительно друг друга по вертикали, что позволяет задавать выравнивание содержимого ячеек таблицы, задавать положение блоков и др.</section></li></ol></div><h2 id="h2-14"><section id="h2-14_0">Строчно-блочные элементы</section></h2><div><section id="h2-14_1">
+</section><blockquote id="h2-14_2"><section id="h2-14_3"> <b id="h2-14_4">Строчно-блочные элементы</b> cочетают преимущества строчных и блочных элементов.  </section></blockquote><pre><code class="hljs apache">    <span class="hljs-section">&lt;img&gt;</span>
+    <span class="hljs-section">&lt;input&gt;</span>
+    <span class="hljs-section">&lt;button&gt;</span>
+    <span class="hljs-section">&lt;textarea&gt;</span>
+    <span class="hljs-section">&lt;select&gt;</span></code></pre><section id="h2-14_6">
+Характеристики этих элементов следующие:</section><ol id="h2-14_7"><li id="h2-14_8"><section id="h2-14_9">Высота и ширина элемента вычисляется браузером автоматически, исходя из содержимого блока.</section></li><li id="h2-14_10"><section id="h2-14_11">Размеры содержимого можно устанавливать через свойства width и height.</section></li><li id="h2-14_12"><section id="h2-14_13">Ширина блока получается сложением значений margin-left, margin-right, width, border, и padding-left, padding-right.</section></li><li id="h2-14_14"><section id="h2-14_15">Высота блока получается сложением значений height, margin-top, margin-bottom, border и padding-top, padding-bottom.</section></li><li id="h2-14_16"><section id="h2-14_17">Несколько элементов идущих подряд располагаются на одной строке и переносятся на другую строку при необходимости.</section></li><li id="h2-14_18"><section id="h2-14_19">Элементы можно выравнивать по вертикали с помощью свойства <i id="h2-14_20">vertical-align</i>.</section></li><li id="h2-14_21"><section id="h2-14_22">Перенос текста в коде считается за пробел.</section><section id="h2-14_23">Строчно-блочный элемент можно определить, задав ему в стилях соответствующее свойство:
+</section><pre><code class="hljs css"><span class="hljs-selector-class">.btn</span> {
+    <span class="hljs-attribute">display</span>: inline-block;   
+}</code></pre></li></ol></div></div>
+<h1 id="triangularflagonpost5"><section id="triangularflagonpost5_0"><img id="triangularflagonpost5_1" src="https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/triangular_flag_on_post.png" height="20"> 5. Поток</section></h1>
+<div><section id="triangularflagonpost5_2"></section><section id="triangularflagonpost5_3">Нормальный /базовый поток <b id="triangularflagonpost5_4"><i id="triangularflagonpost5_5">(normal flow)</i></b>  - это способ, которым элементы страницы располагаются на веб-странице по умолчанию,</section><section id="triangularflagonpost5_6">Элементы на веб-странице располагаются в нормальном потоке, если вы не применили к ним ни единого CSS для изменения их поведения.</section><section id="triangularflagonpost5_7">По умолчанию содержимое элемента уровня блока (display: block) составляет 100% от ширины его родительского элемента и столь же высок, как и его содержимое. </section><section id="triangularflagonpost5_8">Даже без какого-либо применения CSS, <b id="triangularflagonpost5_9"><i id="triangularflagonpost5_10">HTML-документ уже содержит свои собственные правила</i></b>:</section><ul id="triangularflagonpost5_11"><li id="triangularflagonpost5_12"><section id="triangularflagonpost5_13">  <b id="triangularflagonpost5_14">изменчивость</b>: как содержимое адаптируется к размерам браузера;</section></li><li id="triangularflagonpost5_15"><section id="triangularflagonpost5_16">  <b id="triangularflagonpost5_17">очерёдность</b>: порядок, в котором появляются элементы;</section></li><li id="triangularflagonpost5_18"><section id="triangularflagonpost5_19">  <b id="triangularflagonpost5_20">наложение</b>: как элементы появляются друг над другом.</section></li></ul><h2 id="h2-16"><section id="h2-16_0">Изменчивость</section></h2><div><section id="h2-16_1">
+Все блочные элементы являются <b id="h2-16_2">гибкими</b>. Они естественным образом адаптируют свою компоновку, чтобы приспособить внутреннее содержимое: относительно изменения количества внутреннего контента или ширины окна просмотра блоки имеют свойство менять свою высоту (height) и  ширину (width), толкая при этом последующие блоки.</section></div><h2 id="h2-17"><section id="h2-17_0">Очерёдность</section></h2><div><section id="h2-17_1">
+Элементы HTML отображаются в том <b id="h2-17_2">порядке</b>, в котором они записаны <b id="h2-17_3">в коде</b>. Первый в коде — первый в браузере.</section><section id="h2-17_4">Каждый блок появляется в том порядке, в котором он появляется в коде HTML, <b id="h2-17_5">сверху вниз</b>.
+</section><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span></code></pre><section id="h2-17_7">
+<img src="https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/order.png" alt="" id="h2-17_8" style="width: 300px;"></section></div><h2 id="h2-18"><section id="h2-18_0">Наложение</section></h2><div><section id="h2-18_1">
+У браузера есть <b id="h2-18_2">три измерения</b> (X, Y, Z).</section><section id="h2-18_3">Каждый элемент HTML принадлежит воображаемому <b id="h2-18_4">слою</b>.</section><section id="h2-18_5"><b id="h2-18_6">Порядок наложения</b> зависит от того, как элементы <b id="h2-18_7">вложены</b> друг в друга: дочерние элементы появляются <b id="h2-18_8">поверх</b> своих родителей.
+</section><ul id="h2-18_9"><li id="h2-18_10"><section id="h2-18_11">  Каждый <b id="h2-18_12">вложенный</b> элемент появляется <i id="h2-18_13">поверх</i> своего родителя.</section></li><li id="h2-18_14"><section id="h2-18_15">  Чем <b id="h2-18_16">глубже</b> он по иерархии, тем <i id="h2-18_17">выше</i> в наложении.</section><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+  Этот элемент находится позади других элементов.
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+    Этот вложенный элемент принадлежит воображаемому слою, который находится поверх слоя родителя.
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Этот элемент ещё ближе к нам, его слой располагается над слоем уже его родителя.<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span></code></pre><section id="h2-18_19"></section><section id="h2-18_20"><img src="https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/xyz.png" alt="" id="h2-18_21" style="width: 400px;"></section></li></ul></div><h2 id="display"><section id="display_0">свойство display</section></h2><div><section id="display_1"></section><section id="display_2">Положение элемента в потоке зависит от значения свойства display</section><section id="display_3"><img src="https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/positiondisplay.png" alt="" id="display_4" style="width: 300px;"></section></div><h2 id="h2-20"><section id="h2-20_0">Нарушение потока</section></h2><div><section id="h2-20_1">
+Хотя поведение браузера по умолчанию является <i id="h2-20_2">эффективным</i>, этого бывает <i id="h2-20_3">недостаточно</i> для нужд вашего дизайна.</section><section id="h2-20_4">Некоторые свойства CSS позволяют <b id="h2-20_5">нарушить</b> поток:</section><ul id="h2-20_6"><li id="h2-20_7"><section id="h2-20_8">  <code id="h2-20_9">height</code> и <code id="h2-20_10">width</code> могут поменять изменчивость элемента;</section></li><li id="h2-20_11"><section id="h2-20_12">  <code id="h2-20_13">float</code> нарушает поведение элемента, а также его окружения;</section></li><li id="h2-20_14"><section id="h2-20_15">  значения <code id="h2-20_16">absolute</code> и <code id="h2-20_17">fixed</code> у свойства <code id="h2-20_18">position</code> удаляют элемент из потока (изучим на следующем уроке);</section></li><li id="h2-20_19"><section id="h2-20_20">  <code id="h2-20_21">z-index</code> может менять порядок наложения элементов.</section></li></ul></div></div>
+<h1 id="triangularflagonpost6float"><section id="triangularflagonpost6float_0"><img id="triangularflagonpost6float_1" src="https://www.webfx.com/tools/emoji-cheat-sheet/graphics/emojis/triangular_flag_on_post.png" height="20"> 6. Свойство float</section></h1>
+<div><section id="triangularflagonpost6float_2"></section><section id="triangularflagonpost6float_3">Визуалка <a href="https://codepen.io/OlgaMaslova/pen/RvvXJK" id="triangularflagonpost6float_4">тут</a>)</section><blockquote id="triangularflagonpost6float_5"><section id="triangularflagonpost6float_6"> В обычном порядке блочные элементы отображаются, начиная с верхнего края окна браузера по направлению к нижнему краю. Свойство <b id="triangularflagonpost6float_7">float</b> позволяет перемещать любой элемент, выравнивая его по левому или правому краю веб-страницы или содержащего его элемента-контейнера. При этом остальные блочные элементы будут его игнорировать, а строчные элементы будут смещаться вправо или влево, освобождая для него пространство и обтекая его</section></blockquote><section id="triangularflagonpost6float_8">
+</section><table><thead><tr><th><section id="triangularflagonpost6float_9">float:</section></th><th><section id="triangularflagonpost6float_10">comment</section></th></tr></thead><tbody><tr><td><section id="triangularflagonpost6float_11">none</section></td><td><section id="triangularflagonpost6float_12">Значение по умолчанию. Также отменяет любое перемещение для элемента из группы элементов, для которых уже установлено обтекание.</section></td></tr><tr><td><section id="triangularflagonpost6float_13">left</section></td><td><section id="triangularflagonpost6float_14">Элемент изымается из нормального потока элементов и позиционируется по левому краю блока-контейнера.</section></td></tr><tr><td><section id="triangularflagonpost6float_15">right</section></td><td><section id="triangularflagonpost6float_16">Элемент позиционируется по правому краю блока-контейнера.</section></td></tr></tbody></table><section id="triangularflagonpost6float_17"></section><section id="triangularflagonpost6float_18"><b id="triangularflagonpost6float_19">Очистка потока стилями при помощи класса <code id="triangularflagonpost6float_20">clearfix</code> и псевдокласса <code id="triangularflagonpost6float_21">:after</code> </b>
+</section><pre><code class="hljs css"><span class="hljs-selector-class">.clearfix</span><span class="hljs-selector-pseudo">:after</span> { 
+    <span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>; 
+    <span class="hljs-attribute">display</span>: table; 
+    <span class="hljs-attribute">clear</span>: both; 
+}</code></pre><section id="triangularflagonpost6float_23">
+Возьмем для примера код:</section><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"hero"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Винни-Пух<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"left"</span>&gt;</span>Картинка<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Текст.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><section id="triangularflagonpost6float_25"></section><section id="triangularflagonpost6float_26">и стили для него:
+</section><pre><code class="hljs css"><span class="hljs-selector-class">.hero</span> {
+    <span class="hljs-attribute">background</span>: <span class="hljs-number">#D2B48C</span>;
+    <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid red;
+}
+
+<span class="hljs-selector-class">.left</span> {
+    <span class="hljs-attribute">float</span>: left;
+}</code></pre><section id="triangularflagonpost6float_28"></section><section id="triangularflagonpost6float_29">Из-за того, что блок с <code id="triangularflagonpost6float_30">float</code> удалён из потока, родитель не выделяет под него места (смотрим на картинку внизу)</section><section id="triangularflagonpost6float_31"><img src="https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-6-clearfix1.png" alt="" id="triangularflagonpost6float_32"></section><blockquote id="triangularflagonpost6float_33"><section id="triangularflagonpost6float_34"> Элемент с <code id="triangularflagonpost6float_35">float</code> оказался выпавшим за границу родителя <code id="triangularflagonpost6float_36">.hero</code>.</section></blockquote></div>
+<div><section id="h1-22_1"></section><section id="h1-22_2"><b id="h1-22_3">Чтобы этого не происходило, используют одну из следующих техник.</b></section><section id="h1-22_4"><b id="h1-22_5">1) Поставить родителю float</b></section><section id="h1-22_6">Элемент с <code id="h1-22_7">float</code> обязан расшириться, чтобы вместить вложенные <code id="h1-22_8">float-елементы</code>.</section><section id="h1-22_9">Поэтому, если это допустимо, то установка <code id="h1-22_10">float</code> контейнеру всё исправит:
+</section><pre><code class="hljs css"><span class="hljs-selector-class">.hero</span> {
+    <span class="hljs-attribute">background</span>: <span class="hljs-number">#D2B48C</span>;
+    <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid red;
+    <span class="hljs-attribute">float</span>: left;
+}</code></pre><section id="h1-22_12"></section><section id="h1-22_13">Разумеется, не всегда можно поставить родителю <code id="h1-22_14">float</code>, так что смотрим дальше.</section><section id="h1-22_15"><b id="h1-22_16">2) Добавить в родителя элемент с clear</b></section><section id="h1-22_17">Добавим элемент <code id="h1-22_18">div style="clear:both"</code> в самый конец контейнера <code id="h1-22_19">.hero</code>.</section><section id="h1-22_20">Он с одной стороны будет «нормальным» элементом, в потоке, и контейнер будет обязан выделить под него пространство, с другой – он знает о float и сместится вниз.</section><section id="h1-22_21">Соответственно, и контейнер вырастет в размере:
+</section><pre><code class="hljs javascript">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"hero"</span>&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Винни-Пух<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span></span>
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"left"</span>&gt;</span>Картинка<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>
+    &lt;<span class="hljs-attr">p</span>&gt;</span>Текст.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"clear:both"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span></code></pre><section id="h1-22_23">
+Результат – правильное отображение, как и в примере выше. <a href="https://plnkr.co/edit/j1k9832CTepfwU2T7Aeg?p=preview" id="h1-22_24">Открыть код</a>.</section><section id="h1-22_25">Единственный недостаток этого метода – лишний HTML-элемент в разметке.</section><section id="h1-22_26"><b id="h1-22_27">3) Универсальный класс clearfix</b></section><section id="h1-22_28">Чтобы не добавлять в HTML-код лишний элемент, можно задать его через :after.
+</section><pre><code class="hljs css"><span class="hljs-selector-class">.clearfix</span><span class="hljs-selector-pseudo">:after</span> { 
+    <span class="hljs-attribute">content</span>: <span class="hljs-string">" "</span>;      <span class="hljs-comment">/* добавить содержимое: "." */</span> 
+    <span class="hljs-attribute">display</span>: table;    <span class="hljs-comment">/* сделать блоком, т.к. inline не может иметь clear */</span> 
+    <span class="hljs-attribute">clear</span>: both;       <span class="hljs-comment">/* с обеих сторон clear */</span> 
+}</code></pre><section id="h1-22_30"></section><section id="h1-22_31">Добавив этот класс к родителю, получим тот же результат, что и выше. <a href="https://plnkr.co/edit/OjUQGiHHrIbmTlQMir4N?p=preview" id="h1-22_32">Открыть код</a>.</section></div>
+<h1 id="h1-22"><section id="h1-22_0"></section></h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+.container {
+max-width: 1180px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.section {
+padding: 80px 0;
+}
+.section .section-header {
+padding-bottom: 20px;
+}
+.section .title {
+margin: 0 0 30px;
+}
+.section p {
+margin: 0 0 20px;
+}
+.section .section-row {
+display: flex;
+flex-wrap: wrap;
+margin: 0 -15px;
+}
+.section .section-col {
+width: 25%;
+padding: 0 15px 30px;
+}
+.card {
+border: 1px solid #000;
+border-radius: 8px;
+padding: 30px 15px 15px;
+}
+.section-col .card {
+height: 100%;
+}
+.card .card-title a {
+color: #000;
+text-decoration: none;
+}
+.card .card-title a:hover {
+color: yellow;
+}
+.card .card-footer:before {
+content: 'before';
+}
+.card .card-footer:after {
+content: 'after';
+}
+.card .btn {
+display: inline-block;
+padding: 10px 15px;
+text-decoration: none;
+color: #fff;
+border: 1px solid blue;
+background: blue;
+}
+.card .btn:hover {
+background: transparent;
+color: blue;
+}
